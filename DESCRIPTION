@@ -14,9 +14,9 @@ Description: The Ziggurat generator for normally distributed random
  alternative for use with R and C++ code.
 License: GPL (>= 2)
 Depends: R (>= 3.0.0)
-Imports: Rcpp, parallel, graphics, stats, utils
+Imports: Rcpp, RcppGSL, parallel, graphics, stats, utils
 Suggests: rbenchmark, microbenchmark, lattice, knitr, rmarkdown, pinp
 URL: https://github.com/eddelbuettel/rcppziggurat, https://dirk.eddelbuettel.com/code/rcpp.ziggurat.html
 BugReports: https://github.com/eddelbuettel/rcppziggurat/issues
 VignetteBuilder: knitr
-LinkingTo: Rcpp, RcppGSL
+LinkingTo: Rcpp
